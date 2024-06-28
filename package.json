@@ -1,0 +1,35 @@
+{
+  "homepage": "https://github.com/hussnaindev/expo-skeleton-loading",
+  "author": "Muhammad Hussnain Raza",
+  "license": "MIT",
+  "name": "expo-skeleton-loading",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-linear-gradient": "*",
+    "react-native-reanimated": "*"
+  },
+  "react-native": "src/ReactNativeReanimatedSkeleton.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "react-native-reanimated-skeleton.d.ts",
+  "files": [
+    "src/",
+    "lib/",
+    "react-native-reanimated-skeleton.d.ts",
+    "README.md",
+    "!__snapshots__",
+    "!*.test.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/marcuzgabriel/react-native-reanimated-skeleton/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcuzgabriel/react-native-reanimated-skeleton.git"
+  },
+  "dependencies": {
+    "expo-linear-gradient": "^13.0.2"
+  }
+}
