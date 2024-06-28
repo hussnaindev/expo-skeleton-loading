@@ -1,2 +1,2 @@
-import Skeleton from "react-native-reanimated-skeleton";
+import Skeleton from "expo-skeleton-component";
 export default Skeleton;

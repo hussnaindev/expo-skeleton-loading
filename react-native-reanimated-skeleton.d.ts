@@ -1,9 +1,9 @@
 // Project: https://github.com/marcuzgabriel/react-native-reanimated-skeleton
 
-declare module 'react-native-reanimated-skeleton' {
+declare module 'expo-skeleton-component' {
   import React from 'react';
   import { StyleProp, ViewStyle } from 'react-native';
-  import { SharedValue, EasingFunction } from 'react-native-reanimated';
+  import { EasingFunction, SharedValue } from 'react-native-reanimated';
 
   type _animationType = 'none' | 'shiver' | 'pulse' | undefined;
   type _animationDirection =
