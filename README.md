@@ -1,9 +1,9 @@
 <h2 align="left">Skeleton for react native and web with the latest react-native-reanimated v3</h2>
 
-React native reanimated skeleton, a simple yet fully customizable component made to achieve loading animation in a Skeleton-style. Works for iOS, Android and web. This repo is an upgrade from react-native-reanimated v1 to v3 inspired by https://github.com/alexZajac/react-native-skeleton-content.
+React native reanimated skeleton, a simple yet fully customizable component made to achieve loading animation in a Skeleton-style. Works for iOS, Android and web.
 
 <div style="flex-direction: row">
-<a href="https://www.npmjs.com/package/react-native-reanimated-skeleton">
+<a href="https://www.npmjs.com/package/expo-skeleton-component">
   <img alt="weekly downloads from npm" src="https://img.shields.io/npm/dw/react-native-reanimated-skeleton"></a>
   <img alt="react-native" src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB"></a>
   <img alt="typescript" src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"></a>
@@ -15,14 +15,14 @@ React native reanimated skeleton, a simple yet fully customizable component made
 <img width="220px" src="https://raw.githubusercontent.com/alexZajac/react-native-skeleton-content/master/demos/main.gif" />
   
 ### Installation  
-  `npm install react-native-reanimated-skeleton`
+  `npm install expo-skeleton-component`
 
 ### Usage
 
 1.  Import react-native-reanimated-skeleton:
 
 ```javascript
-import Skeleton from "react-native-reanimated-skeleton";
+import Skeleton from "expo-skeleton-component";
 ```
 
 2.  Once you create the Skeleton, you have two options:
@@ -84,24 +84,3 @@ export default function Placeholder () {
 | animationDirection | string           | "horizontalRight"       | Used only for shiver animation, describes the direction and end-point (ex: horizontalRight goes on the x-axis from left to right) |
 | boneColor          | string           | "#E1E9EE"               | Color of the bones                                                                                                                |
 | highlightColor     | string           | "#F2F8FC"               | Color of the highlight of the bones                                                                                               |
-
-### Expo install
-
-`react-native-linear-gradient` is not supported with Expo. Therefore, a postinstall script is needed to change the import statement from `react-native-linear-gradient` to `expo-linear-gradient`. Furthermore, the postinstall script also addresses that `expo-linear-gradient` refers to `LinearGradient` as const instead of default. So the script will ensure:"
-
-```ts
-import LinearGradient from 'react-native-linear-gradient';
-
-... transforms into ...
-
-import { LinearGradient } from 'expo-linear-gradient';
-```
-
-1. Ensure you have this script
-   https://github.com/marcuzgabriel/react-native-reanimated-skeleton/tree/main/packages/expo/scripts
-2. Make sure postinstall is added to the package.json. Please see example: https://github.com/marcuzgabriel/react-native-reanimated-skeleton/blob/main/packages/expo/package.json
-3. npm install and rerun the app
-
-### Examples
-
-Please see the examples folder or storybook https://marcuzgabriel.github.io/react-native-reanimated-skeleton/?path=/docs/stories-skeleton--docs

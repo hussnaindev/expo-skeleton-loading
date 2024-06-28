@@ -3,7 +3,7 @@
   "author": "Muhammad Hussnain Raza",
   "license": "MIT",
   "name": "expo-skeleton-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
@@ -28,5 +28,14 @@
   },
   "dependencies": {
     "expo-linear-gradient": "^13.0.2"
-  }
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "expo",
+    "skeleton",
+    "loading",
+    "ios",
+    "android"
+  ]
 }
